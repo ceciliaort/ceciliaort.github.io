@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Honk&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&display=swap');
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+}
+
+a{  
+  text-decoration: none;
+} 
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  margin: 30px;
+}
+
+header img {
+  width: 150px;
+}
+
+img{  
+  width: 250px;
+} 
+
+h1 {
+  font-size: 55px;
+  color: rgb(249, 64, 147);
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(254, 254, 254);
+}
+
+
+p {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+}
+
+.contenedor{  
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 3px 10px 3px;
+} 
+
+
+.caja{ 
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ } 
+
+ .caja ul li  {  
+  background-color: azure;
+ }
+
+ .caja img{ 
+  border-radius: 50%;
+  height: 150px;
+  } 
+
+ body{ 
+  background-image: url(./imagenes/fondo7.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  } 
+
+  nav {  
+    display: flex;
+  } 
+
+  nav ul{  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {  
+    margin-right: 20px;
+  } 
+
+  nav ul li a:hover{  
+    color: rgb(24, 236, 222);
+  } 
+
+  nav ul li a:hover{  
+    color: rgb(247, 20, 152);
+    
+  } 
+
+  nav li {  
+    font-family: cursive;
+    font-size: 18px;
+  } 
+
+  .img-vertical{  
+    width: 50%;
+    margin-left: 25%;
+    height:800px;
+  } 
+
+.img-cuadrada{  
+height: 800px;
+width: 100%;
+} 
+
+.img-recta{  
+  height: 800px;
+  width: 100%;
+} 
+
+.pie-pagina img {  
+border-radius: 80%;
+height: 30px;
+width: auto;
+}
+
+.pie-pagina {  
+display: flex;
+flex-direction: row;
+margin: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.galeria {  
+ display:grid;
+ grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
+ gap: 20px;
+}
+ .galeria img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px;
+}
